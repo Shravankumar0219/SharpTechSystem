@@ -1,0 +1,109 @@
+/* DisplayLogin.css */
+
+.displaylogin-container {
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+  margin-top: 100px;
+}
+
+.displaylogin-card {
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+  border-radius: 8px;
+  width: 100%;
+  max-width: 800px; /* Adjust max-width as needed */
+  padding: 20px;
+}
+
+.displaylogin-title {
+  text-align: center;
+  margin-bottom: 20px;
+  color: #4492eb;
+  font-size: 24px;
+  font-weight: bold;
+}
+
+.displaylogin-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Create three equal columns */
+  gap: 20px;
+}
+
+.displaylogin-row {
+  padding: 15px;
+  border-radius: 5px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+  display: flex;
+  flex-direction: column;
+}
+
+.displaylogin-label {
+  font-weight: bold;
+  color: #555;
+  margin-bottom: 5px;
+}
+
+.displaylogin-value {
+  color: #333;
+}
+
+/* Update button styling */
+.displaylogin-update-button {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #4CAF50; /* Green background */
+  color: white; /* White text */
+  text-align: center;
+  text-decoration: none;
+  font-size: 16px;
+  border-radius: 5px;
+  border: none;
+  cursor: pointer;
+  transition: background-color 0.3s;
+  margin-top: 20px; /* Add some space at the top */
+}
+
+.displaylogin-update-button:hover {
+  background-color: #45a049; /* Darker green on hover */
+}
+
+.displaylogin-update-button a {
+  color: white;
+  text-decoration: none;
+}
+
+/* Responsive adjustments */
+@media (max-width: 1024px) {
+  .displaylogin-grid {
+    grid-template-columns: repeat(2, 1fr); /* Two columns for medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .displaylogin-grid {
+    grid-template-columns: 1fr; /* One column for small screens */
+  }
+  .displaylogin-container {
+    margin-top: 100px;
+  }
+}
+.displaylogin-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr); /* Create three equal columns */
+  gap: 20px;
+}
+@media (max-width: 1024px) {
+  .displaylogin-grid {
+    grid-template-columns: repeat(2, 1fr); /* Two columns for medium screens */
+  }
+}
+
+@media (max-width: 768px) {
+  .displaylogin-grid {
+    grid-template-columns: 1fr; /* One column for small screens */
+  }
+}
+
+

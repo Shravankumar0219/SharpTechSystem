@@ -1,0 +1,83 @@
+.programs {
+  margin: 80px auto;
+  width: 90%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.program {
+  flex-basis: 31%;
+  position: relative;
+  height: 100%;
+}
+.programs-container-text{
+  font-size: 20px;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+.program img {
+  width: 100%; /* Ensure images fill their container */
+  height: 100%; /* Ensure images fill their container */
+  border-radius: 10px;
+  display: block;
+  object-fit: cover; /* Ensure images maintain aspect ratio and cover the entire container */
+}
+
+.program-headings {
+  justify-content: center;
+  align-items: center;
+}
+
+.caption {
+  border-radius: 10px;
+  position: absolute;
+  top: 0;
+  left: 0;
+  bottom: 0;
+  right: 0;
+  display: flex;
+  align-items: center;
+  
+  justify-content: center;
+  flex-direction: column;
+  color: rgb(245, 234, 234);
+  cursor: pointer;
+  opacity: 0;
+  padding-top: 70%;
+  transition: 0.4s;
+  font-size: larger;
+}
+
+.caption img {
+  width: 60px;
+  margin-bottom: 10px;
+}
+
+.program:hover .caption {
+  opacity: 1;
+  padding-top: 0;
+}
+
+.program-link {
+  text-decoration: none;
+  color: inherit;
+  transition: color 0.3s, box-shadow 0.3s;
+}
+
+.program-link:hover {
+  color: #3f3cdf; /* Change color on hover */
+  box-shadow: 0 0 10px rgba(134, 26, 235, 0.7); /* Add glowing effect on hover */
+}
+/* Media query */
+@media (max-width: 650px) {
+  .programs {
+    flex-direction: column;
+  }
+  .program {
+    flex-basis: 100%;
+    margin: 20px;
+  }
+}
+

@@ -1,0 +1,74 @@
+.footer {
+    margin: 10px auto;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-top: 1px solid #797979;
+    padding: 15px 0;
+  }
+  
+  .footer ul {
+    padding: 0;
+    margin: 0;
+  }
+  
+  .footer ul li {
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+  }
+  
+  .footer a {
+    text-decoration: none;
+    color: #000000; /* Default color for text */
+  }
+  
+
+  
+  .footer a.linkedin svg {
+    color: #0077b5; /* LinkedIn blue */
+
+  }
+  
+  .footer a.instagram svg {
+    color: #dd4314; /* Instagram pink */
+  }
+  
+  .footer a.email svg {
+    color: #ea4a35; /* Gmail red */
+  }
+  
+  .footer a.phone svg {
+    color: #25d366; /* WhatsApp green */
+  }
+  .footer a.facebook svg {
+    color: #1172f0; /* WhatsApp green */
+  }
+  
+  /* Media Query */
+  @media (max-width: 600px) {
+    .footer {
+      display: block;
+      text-align: center;
+    }
+  
+    .footer ul li {
+      margin: 10px;
+    }
+  
+    .footer ul {
+      margin-top: 10px;
+    }
+  }
+  
+
+
+
+
+  .footer {
+    width: 100%;
+ 
+    padding: 20px;
+    text-align: center;
+    flex-shrink: 0; /* Prevent the footer from shrinking */
+}

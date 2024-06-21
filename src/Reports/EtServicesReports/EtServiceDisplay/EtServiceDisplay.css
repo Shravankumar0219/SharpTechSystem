@@ -1,0 +1,66 @@
+.et-service-form-table-2-data{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.et-service-form-table-2-heading{
+    padding-top: 10px;
+    padding-bottom: 10px;
+    text-align: center;
+}
+.et-service-display-pdf-button {
+    background-color: #4CAF50; /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 15px 32px; /* Some padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Get elements to line up properly */
+    font-size: 16px; /* Increase font size */
+    margin: 4px 2px; /* Add some margin */
+    cursor: pointer; /* Pointer/hand icon */
+    border-radius: 12px; /* Rounded corners */
+    transition-duration: 0.4s; /* Animation duration */
+}
+
+.et-service-display-pdf-button:hover {
+    background-color: white; /* White background on hover */
+    color: black; /* Black text on hover */
+    border: 2px solid #4CAF50; /* Green border on hover */
+}
+
+.et-service-display-doc-button{
+    background-color: #3558f1; /* Green background */
+    border: none; /* Remove borders */
+    color: white; /* White text */
+    padding: 15px 32px; /* Some padding */
+    text-align: center; /* Centered text */
+    text-decoration: none; /* Remove underline */
+    display: inline-block; /* Get elements to line up properly */
+    font-size: 16px; /* Increase font size */
+    margin: 4px 2px; /* Add some margin */
+    cursor: pointer; /* Pointer/hand icon */
+    border-radius: 12px; /* Rounded corners */
+    transition-duration: 0.4s; /* Animation duration */
+}
+
+
+.et-service-display-doc-button:hover {
+    background-color: white; /* White background on hover */
+    color: black; /* Black text on hover */
+    border: 2px solid #2c87ee; /* Green border on hover */
+}
+
+.et-service-disclaimer-box {
+    text-align: left;
+    margin: 20px;
+    padding: 10px;
+    font-size: 14px;
+    line-height: 1.6;
+    background-color: #f9f9f9;
+    border: 1px solid #ccc;
+    border-radius: 5px;
+}
+.et-service-form-table-2{
+    max-height: 40%;
+}

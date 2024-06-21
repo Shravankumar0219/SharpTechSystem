@@ -1,0 +1,101 @@
+
+
+.employeesearch-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  /* Set height to full viewport height */
+  margin-top: 130px;
+  width: 90%;
+ 
+}
+
+.employeesearch-container form {
+  width: 30%; /* Adjust form width */
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+
+}
+
+.employeesearch-container label {
+  display: block;
+  font-weight: bold;
+}
+
+.employeesearch-container input[type="text"] {
+  width: 100%;
+  padding: 10px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  margin-bottom: 10px;
+  
+}
+
+.employeesearch-container button[type="submit"] {
+  width: 100%;
+  padding: 10px;
+  background-color: #1a9ee1;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+.employeesearch-container button[type="submit"]:hover {
+  background-color: #3562f7;
+}
+
+.employeessearch-table {
+  margin-top: 30px;
+  margin-bottom: 400px;
+  margin-left: -100px;
+ 
+}
+
+.employeessearch-table table {
+  width:100%;
+  border-collapse: collapse;
+
+
+}
+
+.employeessearch-table th,
+.employeessearch-table td {
+  padding: 10px;
+  border: 1px solid #ccc;
+  text-align: left;
+ 
+
+}
+
+.employeessearch-table th {
+  background-color: #1a9ee1;
+  color: #fff;
+
+}
+
+.employeessearch-table th:first-child,
+.employeessearch-table td:first-child {
+  font-weight: bold;
+}
+
+.employeessearch-table th:nth-child(2),
+.employeessearch-table td:nth-child(2) {
+  text-transform: capitalize;
+}
+
+.employeessearch-table tbody tr:hover {
+  background-color: #f2f2f2;
+}
+/* Error message styles */
+.employee-search-error-message {
+  color: red;
+  background-color: #ffe6e6;
+  border: 1px solid red;
+  padding: 10px;
+  margin: 10px 0;
+  border-radius: 5px;
+  text-align: center;
+  font-weight: bold;
+}

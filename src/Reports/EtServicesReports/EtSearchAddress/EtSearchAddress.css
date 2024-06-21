@@ -1,0 +1,77 @@
+/* Container styling */
+.et-address-search-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    padding: 20px;
+}
+
+/* Form styling */
+.et-address-search-form {
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+/* Heading styling */
+.et-address-search-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+    color: #333;
+}
+
+/* Input field styling */
+.et-address-search-input-field {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+.et-address-search-input-field:focus {
+    border-color: #007ad9;
+    outline: none;
+}
+
+/* Suggestions dropdown styling */
+.et-address-suggestions-dropdown {
+    margin-bottom: 20px;
+}
+
+.et-address-suggestions-suggestions {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+}
+
+/* Submit button styling */
+.et-address-search-submit-button {
+    width: 100%;
+    padding: 10px;
+    font-size: 16px;
+    border-radius: 4px;
+    background-color: #007ad9;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+}
+
+.et-address-search-submit-button:hover {
+    background-color: #005bb5;
+}
+
+.et-address-search-submit-button:active {
+    background-color: #004a99;
+}

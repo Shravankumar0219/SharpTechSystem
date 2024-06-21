@@ -1,0 +1,53 @@
+/* Dropdown component styling */
+.dropdown-component {
+  position: relative;
+  display: inline-block;
+}
+
+.dropdown-button-component {
+  background-color: white;
+  padding: 10px 10px;
+  border: none;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+  color: rgb(42, 64, 92);
+  font-size: 20px;
+  font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}
+
+.dropdown-button-component{
+  margin-left: 8px;
+}
+
+.dropdown-menu {
+  display: block;
+  position: absolute;
+  background-color: white;
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
+  z-index: 1;
+  list-style: none;
+  padding: 0;
+  margin: 0;
+  min-width: 160px;
+}
+
+.dropdown-item {
+  padding: 12px 16px;
+}
+
+.dropdown-item .dropdown-link-component {
+  color: rgb(0, 0, 0);
+  text-decoration: none;
+}
+
+.dropdown-item:hover .dropdown-link-component {
+  color: rgb(55, 59, 243);
+}
+
+/* Hide dropdowns on mobile view */
+@media (max-width: 768px) {
+  .dropdown-component {
+    display: none;
+  }
+}

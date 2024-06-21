@@ -1,0 +1,94 @@
+
+.moving-title {
+  font-size: 2em;
+  text-align: center;
+  display: flex;
+  flex:1;
+  justify-content: center;
+  align-items: center;
+  height: 200px; /* Adjust height as needed */
+  margin-top: 20px;
+ margin-bottom: -170px
+
+}
+
+.moving-title h2 {
+ 
+  font-size: 3rem; /* Adjust font size as needed */
+  color: #333; /* Adjust color as needed */
+  white-space: nowrap; /* Prevent text from wrapping */
+}
+
+.moving-title .animate-left {
+  animation: moveInLeft 1.5s ease-out forwards;
+  /* animation-iteration-count: infinite; */
+  color:#0c5eaa;
+}
+
+
+@keyframes moveInLeft {
+  0% {
+    transform: translateX(-100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+.moving-title .animate-up {
+  animation: moveInUp 1.5s ease-out forwards;
+  /* animation-iteration-count: infinite; */
+  color:#0c5eaa;
+}
+
+
+@keyframes moveInUp {
+  0% {
+    transform: translateY(-100%);
+  }
+  100% {
+    transform: translateY(0);
+  }
+}
+.moving-title .animate-right {
+  animation: moveInRight 1.5s ease-out forwards;
+  /* animation-iteration-count: infinite; */
+  color: rgb(43, 161, 240);
+}
+
+@keyframes moveInRight {
+  0% {
+    transform: translateX(100%);
+  }
+  100% {
+    transform: translateX(0);
+  }
+}
+
+
+/* Responsive Styles */
+@media (max-width: 768px) {
+  .moving-title {
+    font-size: 1.5em;
+    height: 150px; /* Adjust height for mobile */
+    margin-bottom: -150px; /* Adjust margin for mobile */
+    margin-top: 50px;
+
+  }
+
+  .moving-title h2 {
+    font-size: 2rem; /* Adjust font size for mobile */
+  }
+}
+
+@media (max-width: 480px) {
+  .moving-title {
+    font-size: 1.2em;
+    height: 120px; /* Adjust height for small mobile devices */
+    margin-top: 70px;
+  }
+
+  .moving-title h2 {
+    font-size: 1.5rem; /* Adjust font size for small mobile devices */
+  }
+}

@@ -1,0 +1,70 @@
+/* UpdateUser.css */
+
+.update-user-container {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: 20px;
+}
+.form-group p{
+
+  font-size: large;
+  font-style: italic;
+  font-size: 75%;
+  color: #a03320;
+  
+}
+
+.update-user-container h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+}
+
+.update-user-form {
+  display: flex;
+  flex-direction: column;
+}
+
+.update-user-form-labels {
+  margin-bottom: 20px;
+}
+
+.update-user-form-labels label {
+  font-size: 18px;
+}
+
+.update-user-form-labels input {
+  width: 100%;
+  padding: 10px;
+  font-size: 16px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.update-user-form-button {
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  padding: 10px 20px;
+  font-size: 16px;
+  cursor: pointer;
+  border-radius: 5px;
+  transition: background-color 0.3s ease;
+}
+
+.update-user-form-button:hover {
+  background-color: #0056b3;
+}
+
+@media (max-width: 768px) {
+  .update-user-form-labels input {
+    font-size: 14px;
+  }
+
+  .update-user-form-labels label {
+    font-size: 16px;
+  }
+
+  .update-user-form-button {
+    font-size: 14px;
+  }
+}

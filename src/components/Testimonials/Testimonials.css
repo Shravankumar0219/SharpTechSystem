@@ -1,0 +1,80 @@
+.testimonials {
+    display: flex;
+    justify-content: center; /* Center-align items horizontally */
+    margin: 80px auto;
+    padding: 0 80px;
+}
+
+
+.test-column {
+    display: flex; /* Adjust display to flex */
+    flex-wrap: wrap; /* Allow columns to wrap on smaller screens */
+    justify-content: center; /* Center-align items horizontally */
+    margin-bottom: 20px; /* Adjust spacing between columns */
+}
+
+.test-container {
+    width: 45%; /* Adjust width of each test-container */
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center-align items horizontally */
+    padding: 20px; /* Add padding for spacing */
+   /* border: 1px solid #685454;  Add border style */
+    margin-right: 20px; /* Adjust spacing between test-containers */
+    margin-bottom: 20px; /* Add margin-bottom for spacing between test-containers */
+    box-shadow: 0 0 5px 2px rgb(156, 205, 224); /* Add box shadow on hover */
+
+}
+
+.user-info img:hover {
+    box-shadow: 0 0 5px 2px rgba(10, 9, 9, 0.5); /* Add box shadow on hover */
+    
+ 
+}
+
+.user-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center; /* Center-align items horizontally */
+    text-align: center; /* Center-align text */
+}
+
+.user-info img {
+    width: 100%;
+    height: auto;
+    max-height: 200px; /* Set maximum height */
+    margin-bottom: 10px; /* Add margin-bottom for spacing */
+}
+.test-container-content,
+.test-container-content-a {
+  /*  background-color: #e6e6e6;  Set background color for test-container-content and test-container-content-a */
+    padding: 10px; /* Add padding for spacing */
+    margin-bottom: 10px; /* Add margin-bottom for spacing between content sections */
+    width: calc(100% - 0px); /* Fit the background color within the border */
+  /*  border: 1px solid #ac4848;  Add border style */
+}
+.heading-rapid{
+    color: #033a8d;
+}
+h3, span {
+    margin: 10px 0; /* Add margin for spacing */
+}
+
+@media (max-width: 1000px) {
+    .testimonials {
+        padding: 0 40px;
+    }
+    
+    .column {
+        width: 100%; /* Set column width to 100% on smaller screens */
+    }
+    
+    .test-container {
+        width: 100%; /* Set test-container width to 100% on smaller screens */
+        margin-right: 0; /* Remove margin-right for spacing between test-containers on smaller screens */
+    }
+}
+
+
+
+

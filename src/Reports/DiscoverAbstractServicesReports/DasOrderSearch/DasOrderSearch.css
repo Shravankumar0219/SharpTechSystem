@@ -1,0 +1,86 @@
+/* Container for the entire form */
+.das-order-search-container  {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+ 
+    padding: 20px;
+}
+
+/* Form styling */
+.das-order-search-form {
+    background: #fff;
+    padding: 20px 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    width: 100%;
+    max-width: 400px;
+    box-sizing: border-box;
+}
+
+/* Heading styling */
+.das-order-search-form h2 {
+    margin-bottom: 20px;
+    font-size: 24px;
+    text-align: center;
+    color: #333;
+}
+
+/* Label styling */
+.das-order-search-label {
+    display: block;
+    margin-bottom: 8px;
+    font-size: 20px;
+    color: #717277;
+}
+
+/* Input field styling */
+.das-order-search-label-input {
+    width: calc(100% - 22px);
+    padding: 10px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+    transition: border-color 0.3s;
+}
+
+.das-order-search-label-input:focus {
+    border-color: #007ad9;
+    outline: none;
+}
+
+
+
+/* Button styling */
+.das-order-search-button {
+    width: 30%;
+    font-size: 20px; 
+    border-radius: 4px;
+    background-color: #007ad9;
+    border: none;
+    color: #fff;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+margin-left: 30%;
+}
+
+
+.das-order-search-button .p-button-label {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Hover and active states */
+.das-order-search-button:hover {
+    background-color: #005bb5;
+}
+
+.das-order-search-button:active {
+    background-color: #1e3e02;
+}
